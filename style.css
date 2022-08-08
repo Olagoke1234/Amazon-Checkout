@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.details {
+  flex: 3;
+}
+
+.address .form-group label {
+  flex: 1;
+  text-align: right;
+  margin-right: 1em;
+}
+
+.address .form-group input {
+  background-color: #8fdc6a;
+  border-radius: 10px;
+  flex: 3;
+  font-size: 1em;
+}
+
+.address .form-group {
+  display: flex;
+  margin: 1em;
+}
+
+.shipping {
+  text-align: center;
+}
+
+.shipping select {
+  font-size: 1em;
+  margin-top: 0.5em;
+  background-color: #8fdc6a;
+  border-radius: 10px;
+}
+
+.payments {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.radio {
+  display: flex;
+  margin-top: 0.5em;
+}
+
+.radio label {
+  flex: 1;
+}
+
+.checks {
+  display: flex;
+}
+
+.checks label {
+  flex: 1;
+}
+
+.checks label:nth-child(1) {
+  order: 2;
+}
+
+.checks label:nth-child(2) {
+  order: 1;
+}
+
+.submit {
+  margin-top: auto;
+}
+
+.comments {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.comments textarea {
+  flex: 1;
+  background-color: #8fdc6a;
+  border-radius: 10px;
+}
